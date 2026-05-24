@@ -1,34 +1,9 @@
-# V2bX v0.4.0 自用镜像
-
-这个仓库是 `wyx2685/V2bX` 的 `v0.4.0` 自用安装镜像，安装脚本已经改为默认使用 `kkkhhello/V2bX`，不再依赖原作者的安装脚本仓库或 release 下载地址。
-
-## 文件说明
-
 - `install.sh`: 一键安装脚本，默认安装 `v0.4.0`。
 - `V2bX.sh`: 安装后的管理命令脚本，会从本仓库更新自身和重新安装。
 - `initconfig.sh`: 首次安装时可选的配置生成脚本。
 - `release-assets/v0.4.0/`: 安装所需的 Linux 二进制 zip 包。
 - `source/V2bX-v0.4.0.tar.gz`: v0.4.0 源码备份，不参与安装。
 - `SHA256SUMS`: 已下载文件的 SHA256 校验值。
-
-## 上传到你的 GitHub
-
-建议在 GitHub 新建一个公开仓库：
-
-```text
-https://github.com/kkkhhello/V2bX
-```
-
-然后在本目录执行：
-
-```bash
-git add .
-git commit -m "Mirror V2bX v0.4.0 installer"
-git remote add origin https://github.com/kkkhhello/V2bX.git
-git push -u origin main
-```
-
-这些 zip 单个文件都小于 GitHub 的 100MB 限制，但大于网页上传的常见限制，建议用 `git push` 上传。
 
 ## 一键安装命令
 
